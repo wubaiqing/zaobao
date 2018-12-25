@@ -1,4 +1,4 @@
-### 项目简介
+### 项目背景
 不知道大家有没有跟我一样的情况，总是需要了解一些前沿的技术；其目的有可能是为了让技术更加的精进，也有可能是害怕技术落后而掉队；总之需要从各类渠道来了解一些前沿的信息。
 
 以我举例，我经常在（[Hacker News](https://news.ycombinator.com/)、[Medium](https://medium.com/)、[Dev.to](https://dev.to/)、Twitter、[阮一峰](http://www.ruanyifeng.com/blog/)、GitHub 关注、[微博](https://weibo.com/)、[V2EX](https://www.v2ex.com/)、[Ruby China](https://ruby-china.org/)、[GitHub Trending](https://github.com/trending)）等地去了解一些最前沿的技术。通过整理后，把每天值得分享的内容，发布到公司的 QQ 群里，让大家和我同时受益。
