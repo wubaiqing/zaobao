@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/zaobao/',
   title: "每日时报",
   description:
     "科技新闻日报，偏向前端系。以文章、工具、新闻、视频等需求分类。",
