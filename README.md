@@ -13,6 +13,8 @@
 
 > 访问地址 : <https://wubaiqing.github.io/zaobao/>
 
+> GitHub : <https://github.com/wubaiqing>
+
 ### 阅读效果
 ![效果1](https://raw.githubusercontent.com/wubaiqing/zaobao/master/docs/assets/introduce_1.png)
 
@@ -31,4 +33,3 @@ $ yarn docs:build
 
 > 邮箱 : <wubaiqing@vip.qq.com>
 
-> GitHub : <https://github.com/wubaiqing>
