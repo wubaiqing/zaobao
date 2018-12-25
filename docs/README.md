@@ -1,10 +1,9 @@
 ---
 home: false
 footer: MIT Licensed | Copyright © 2018-present
-actionText: 快速上手
 ---
 
-科技新闻时报，偏向前端系。以文章、工具、新闻、视频等需求分类。
+每日时报，偏向前端技术体系。会以文章、工具、新闻、视频为主要分类。
 
 ### 阅读效果
 ![效果1](https://raw.githubusercontent.com/wubaiqing/zaobao/master/docs/assets/introduce_1.png)
