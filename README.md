@@ -2,9 +2,12 @@
 
 > Github : <https://github.com/wubaiqing>
 
-### 科技新闻时报，偏向前端系。以文章、工具、新闻、视频等需求分类。
+科技新闻时报，偏向前端系。以文章、工具、新闻、视频等需求分类。
 
-#### 开始阅读很简单
+### 阅读效果
+![效果1](https://raw.githubusercontent.com/wubaiqing/zaobao/master/docs/assets/introduce_1.png)
+
+### 开始阅读很简单
 
 ```bash
 # 安装依赖
