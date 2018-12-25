@@ -1,9 +1,3 @@
-> 访问地址 : <https://github.com/wubaiqing/zaobao>
-
-> 邮箱 : <wubaiqing@vip.qq.com>
-
-> GitHub : <https://github.com/wubaiqing>
-
 ### 项目简介
 不知道大家有没有跟我一样的情况，总是需要了解一些前沿的技术；其目的有可能是为了让技术更加的精进，也有可能是害怕技术落后而掉队；总之需要从各类渠道来了解一些前沿的信息。
 
@@ -16,6 +10,8 @@
 这个项目会以前端技术体系为主要分享课题。  
 内容会以：文章、工具、新闻、视频几大板块作为主要分类。  
 如果我的分享对你有所帮助，还请大家给个 ⭐️ 让更多的人知道[它](https://github.com/wubaiqing/zaobao)。  
+
+> 访问地址 : <https://wubaiqing.github.io/zaobao/>
 
 ### 阅读效果
 ![效果1](https://raw.githubusercontent.com/wubaiqing/zaobao/master/docs/assets/introduce_1.png)
@@ -32,3 +28,7 @@ $ yarn docs:dev
 # 构建项目
 $ yarn docs:build
 ```
+
+> 邮箱 : <wubaiqing@vip.qq.com>
+
+> GitHub : <https://github.com/wubaiqing>
