@@ -1,6 +1,7 @@
 ---
 home: false
 footer: MIT Licensed | Copyright © 2018-present
+actionText: 快速上手
 ---
 
 科技新闻时报，偏向前端系。以文章、工具、新闻、视频等需求分类。
@@ -17,4 +18,3 @@ $ umi dev
 # 构建项目
 $ umi build
 ```
-
