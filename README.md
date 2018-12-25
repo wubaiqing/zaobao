@@ -16,8 +16,8 @@
 $ yarn 
 
 # 开启阅读
-$ umi dev
+$ yarn docs:dev 
 
 # 构建项目
-$ umi build
+$ yarn docs:build
 ```
