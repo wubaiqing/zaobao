@@ -9,7 +9,10 @@ module.exports = {
     repo: "wubaiqing/zaobao",
     lastUpdated: 'Last Updated',
     docsDir: 'docs',
-    algolia: {},
+    algolia: {
+      apiKey: 'd9708b4d74ba98295f2a87341fae3f0c',
+      indexName: 'zaobao'
+    },
     sidebar: [
       ["/", "1. 介绍"],
       {
