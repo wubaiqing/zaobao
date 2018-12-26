@@ -16,8 +16,6 @@ footer: MIT Licensed | Copyright © 2018-present
 内容会以：文章、工具、新闻、视频等几大板块作为主要分类。  
 如果我的分享对你有所帮助，还请大家给个 ⭐️ 让更多的人知道[它](https://github.com/wubaiqing/zaobao)。  
 
-> 访问地址 : <https://wubaiqing.github.io/zaobao/>
-
 > GitHub : <https://github.com/wubaiqing/zaobao>
 
 ### 阅读效果
