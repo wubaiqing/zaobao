@@ -5,7 +5,7 @@ module.exports = {
   description: "每日时报，会以前端技术体系为主要分享课题。内容会以：文章、工具、新闻、视频几大板块作为主要分类。",
   ga: 'UA-131469836-1',
   head: [
-    ['link', { rel: 'alternate', type: 'application/rss+xml', href: '/rss.xml', title: '每日时报 | latest posts feed' }]
+    ['link', { rel: 'alternate', type: 'application/rss+xml', href: '/rss.xml', title: '每日时报' }]
   ],
   base: '/zaobao/',
   themeConfig: {
