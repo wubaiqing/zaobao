@@ -20,7 +20,7 @@ export default ({
     feed_url: 'https://wubaiqing.github.io/zaobao/rss.xml',
     site_url: 'https://wubaiqing.github.io/zaobao/',
     copyright: '2018 每日时报',
-    language: 'en',
+    language: 'zn-CN',
   })
 
   const d = new Date()
