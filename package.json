@@ -4,6 +4,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "rss": "^1.2.2",
     "vuepress": "^1.0.0-alpha.30"
   }
 }
