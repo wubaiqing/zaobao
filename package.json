@@ -1,10 +1,12 @@
 {
   "scripts": {
+    "lint:md": "lint-md ./docs/",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
+    "lint-md": "^0.0.8",
     "rss": "^1.2.2",
     "vuepress": "^1.0.0-alpha.30"
   }
