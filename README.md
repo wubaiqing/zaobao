@@ -13,6 +13,8 @@
 
 > 访问地址 : <https://wubaiqing.github.io/zaobao/>
 
+> RSS : <https://wubaiqing.github.io/zaobao/rss.xml>
+
 > GitHub : <https://github.com/wubaiqing/zaobao>
 
 ### 阅读效果

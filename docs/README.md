@@ -18,6 +18,8 @@ footer: MIT Licensed | Copyright © 2018-present
 
 > GitHub : <https://github.com/wubaiqing/zaobao>
 
+> RSS : <https://wubaiqing.github.io/zaobao/rss.xml>
+
 ### 阅读效果
 ![效果1](https://raw.githubusercontent.com/wubaiqing/zaobao/master/docs/assets/introduce_1.png)
 
