@@ -6,8 +6,8 @@
 const RSS = require('rss')
 const path = require('path')
 const fs = require('fs-extra')
-const showdown  = require('showdown')
-const converter = new showdown.Converter()
+const MarkdownIt = require('markdown-it')
+const md = new MarkdownIt()
 
 module.exports = (pluginOptions, ctx) => {
   return {
@@ -35,7 +35,7 @@ module.exports = (pluginOptions, ctx) => {
         .sort((a, b) => b.date - a.date)
         .map(page => ({
           title: page.title,
-          description: `${page.title} 早报，更新时间 ${page.lastUpdated}`,
+          description: md.render(page._content),
           url: `${pluginOptions.site_url}${page.path}`,
           date: page.date,
         }))
