@@ -15,7 +15,7 @@ module.exports = (pluginOptions, ctx) => {
 
     generated () {
       const { pages, sourceDir } = ctx
-      const { filter = () => true, count = 60 } = pluginOptions
+      const { count = 60 } = pluginOptions
       const siteData = require(path.resolve(sourceDir, '.vuepress/config.js'))
 
       const feed = new RSS({
@@ -28,7 +28,9 @@ module.exports = (pluginOptions, ctx) => {
       })
 
       pages
-        .filter(page => filter(page.frontmatter))
+        .filter(page => {
+          return /^\/201.+/.test(page.path)
+        })
         .map(page => ({...page, date: new Date(page.lastUpdated)}))
         .sort((a, b) => b.date - a.date)
         .map(page => ({
