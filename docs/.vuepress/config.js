@@ -1,4 +1,5 @@
 const readFileList = require('../../scripts/build.js');
+const rss = require('../../scripts/rss.js');
 
 module.exports = {
   title: "每日时报",
@@ -7,7 +8,14 @@ module.exports = {
     ['link', { rel: 'alternate', type: 'application/rss+xml', href: '/rss.xml', title: '每日时报' }]
   ],
   ga: 'UA-131469836-1',
-  plugins: ['@vuepress/google-analytics'],
+  plugins: [
+    ['@vuepress/google-analytics'],
+    [rss, {
+      site_url: 'https://wubaiqing.github.io/zaobao',
+      copyright: '2019 每日时报',
+      count: 60
+    }],
+  ],
   base: '/zaobao/',
   themeConfig: {
     repo: "wubaiqing/zaobao",
