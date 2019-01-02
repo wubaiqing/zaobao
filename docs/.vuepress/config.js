@@ -1,5 +1,4 @@
 const readFileList = require('../../scripts/build.js');
-const rssSupport = require('vuepress-plugin-rss-support');
 
 module.exports = {
   title: "每日时报",
@@ -10,8 +9,9 @@ module.exports = {
   ga: 'UA-131469836-1',
   plugins: [
     ['@vuepress/google-analytics'],
-    [rssSupport, {
+    ['vuepress-plugin-rss-support', {
       site_url: 'https://wubaiqing.github.io/zaobao',
+      filter: page => /^\/201.+/.test(page.path),
       copyright: '2019 每日时报',
       count: 60
     }],
