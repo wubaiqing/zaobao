@@ -35,7 +35,7 @@ module.exports = (pluginOptions, ctx) => {
         .sort((a, b) => b.date - a.date)
         .map(page => ({
           title: page.title,
-          description: converter.makeHtml(page._content),
+          description: `${page.title} 早报，更新时间 ${page.lastUpdated}`,
           url: `${pluginOptions.site_url}${page.path}`,
           date: page.date,
         }))

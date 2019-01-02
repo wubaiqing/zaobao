@@ -20,18 +20,31 @@ footer: MIT Licensed | Copyright © 2018-present
 
 > RSS : <https://wubaiqing.github.io/zaobao/rss.xml>
 
-### 阅读效果
-![效果1](https://raw.githubusercontent.com/wubaiqing/zaobao/master/docs/assets/introduce_1.png)
+### 安装
 
-### 构建命令
+首先是下载 `zaobao` 的源码, 请执行下列命令：  
+```bash
+# 克隆代码
+$ git clone https://github.com/wubaiqing/zaobao.git
+$ cd zaobao
+```
 
+下载完成后, 需要安装依赖：
 ```bash
 # 安装依赖
 $ yarn 
 
 # 开启阅读
 $ yarn docs:dev 
+```
 
-# 构建项目
-$ yarn docs:build
+在浏览器中打开 <http://localhost:8080/zaobao/>
+
+### 更新
+
+在 `zaobao` 文件夹中运行下面的命令就会从 GitHub 仓库拉取最新版本。
+
+```bash
+# 拉取代码
+$ git pull
 ```
