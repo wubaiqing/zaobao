@@ -6,9 +6,14 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
     "jest": "^23.6.0",
     "lint-md": "^0.0.8",
+    "regenerator-runtime": "^0.13.1",
     "vuepress": "^1.0.0-alpha.30",
     "vuepress-plugin-rss-support": "^1.0.2"
   }

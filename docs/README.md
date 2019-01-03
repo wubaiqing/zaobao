@@ -22,7 +22,7 @@ footer: MIT Licensed | Copyright © 2018-present
 
 ### 安装
 
-首先是下载 `zaobao` 的源码, 请执行下列命令：  
+下载源码, 请执行下列命令：  
 ```bash
 # 克隆代码
 $ git clone https://github.com/wubaiqing/zaobao.git

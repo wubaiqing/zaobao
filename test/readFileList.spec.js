@@ -1,5 +1,9 @@
-const sum = require('./sum');
+import readFileList from '../scripts/build'
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('is directory empty', () => {
+  expect(readFileList('2019', '13')).toEqual([])
+});
+
+test('not empty', () => {
+  expect(readFileList('2019', '01').length).not.toBe(0)
 });

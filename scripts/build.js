@@ -1,9 +1,15 @@
 const fs = require('fs');
+const path = require('path');
 
 function readFileList(year, moon) {
   const fileList = []
-  const path = `./docs/${year}/${moon}/`;
-  const files = fs.readdirSync(path);
+  const dirPath = path.resolve(`./docs/${year}/${moon}/`)
+  const isDir = fs.existsSync(dirPath) && fs.lstatSync(dirPath).isDirectory();
+  if (!isDir) {
+    return fileList
+  }
+
+  const files = fs.readdirSync(dirPath);
   files.forEach((item, index) => {
     const currentFile = item.slice(0, 2)
     fileList.push([
