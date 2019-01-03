@@ -13,7 +13,6 @@
     "babel-jest": "^23.6.0",
     "jest": "^23.6.0",
     "lint-md": "^0.0.8",
-    "regenerator-runtime": "^0.13.1",
     "vuepress": "^1.0.0-alpha.30",
     "vuepress-plugin-rss-support": "^1.0.2"
   }
