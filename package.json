@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "jest",
-    "lint": "eslint --fix --ext .js scripts",
+    "lint": "eslint --fix --ext .js .",
     "commit": "commit",
     "lint:md": "lint-md ./docs/",
     "docs:dev": "vuepress dev docs",
