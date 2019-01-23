@@ -1,15 +1,15 @@
-const fs = require("fs");
-const path = require("path");
+const { resolve } = require("path");
+const { existsSync, lstatSync, readdirSync } = require("fs");
 
 function readFileList(year, moon) {
   const fileList = [];
-  const dirPath = path.resolve(`./docs/${year}/${moon}/`);
-  const isDir = fs.existsSync(dirPath) && fs.lstatSync(dirPath).isDirectory();
+  const dirPath = resolve(`./docs/${year}/${moon}/`);
+  const isDir = existsSync(dirPath) && lstatSync(dirPath).isDirectory();
   if (!isDir) {
     return fileList;
   }
 
-  const files = fs.readdirSync(dirPath);
+  const files = readdirSync(dirPath);
   files.forEach((item) => {
     const currentFile = item.slice(0, 2);
     fileList.push([
