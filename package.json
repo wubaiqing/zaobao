@@ -1,6 +1,7 @@
 {
   "scripts": {
     "test": "jest",
+    "commit": "commit",
     "lint:md": "lint-md ./docs/",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
@@ -10,6 +11,7 @@
     "@babel/preset-env": "^7.2.3",
     "@commitlint/cli": "^7.3.2",
     "@commitlint/config-conventional": "^7.3.1",
+    "@commitlint/prompt-cli": "^7.3.1",
     "@commitlint/travis-cli": "^7.3.2",
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
     "babel-core": "^7.0.0-bridge.0",
