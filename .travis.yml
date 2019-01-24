@@ -1,5 +1,8 @@
 language: node_js
 
+cache:
+  yarn: true
+
 node_js:
   - "8"
   - "10"
@@ -8,4 +11,8 @@ script:
   - commitlint-travis
 
 before_script:
-  - npm run docs:build
+  - yarn docs:build
+
+after_success:
+  - yarn test:coverage
+
