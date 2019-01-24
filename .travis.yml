@@ -7,12 +7,9 @@ node_js:
   - "8"
   - "10"
 
-script:
-  - commitlint-travis
-
 before_script:
+  - commitlint-travis
   - yarn docs:build
 
 after_success:
   - yarn test:coverage
-
