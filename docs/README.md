@@ -6,7 +6,7 @@ footer: MIT Licensed | Copyright © 2018-present
 ### 项目背景
 不知道大家有没有跟我一样的情况，总是需要了解一些前沿的技术；其目的可能是为了让技术精进，也有可能是害怕技术落后而掉队；总之需要从各类网站了解一些前沿信息。
 
-以我举例，我经常在（[Hacker News](https://news.ycombinator.com/)、[Medium](https://medium.com/)、[Dev.to](https://dev.to/)、[Twitter](https://twitter.com/)、[阮一峰](http://www.ruanyifeng.com/blog/)、[GitHub 关注](https://github.com/)、[微博](https://weibo.com/)、[V2EX](https://www.v2ex.com/)、[Ruby China](https://ruby-china.org/)、[GitHub Trending](https://github.com/trending)）等地去学习。通过整理后，把每天值得分享的内容，发布到公司的 QQ 群里，让大家和我同时受益。
+以我举例，我经常在（[Hacker News](https://news.ycombinator.com/)、[Medium](https://medium.com/)、[Dev.to](https://dev.to/)、[Twitter](https://twitter.com/)、[阮一峰](http://www.ruanyifeng.com/blog/)、[GitHub 关注](https://github.com/)、[微博](https://weibo.com/)、[V2EX](https://www.v2ex.com/)、[Ruby China](https://ruby-china.org/)、[GitHub Trending](https://github.com/trending)、[掘进](https://juejin.im/)、[OS China](https://www.oschina.net/)）等地去学习。通过整理后，把每天值得分享的内容，发布到公司的 QQ 群里，让大家和我同时受益。
 
 学习加整理这个过程是非常耗时的。所以我希望有一个像阮一峰老师的[每周分享](http://www.ruanyifeng.com/blog/2018/12/weekly-issue-36.html)，或者蚂蚁金服[陈成](https://github.com/sorrycc/)一样的微信群，来快速的学习有价值的东西。
 
