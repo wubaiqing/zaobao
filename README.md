@@ -20,6 +20,10 @@
 ### 阅读效果
 ![效果1](https://raw.githubusercontent.com/wubaiqing/zaobao/master/docs/assets/introduce_1.png)
 
+### 资源分享，参与奉献
+项目安装方式极其简单，如果有更好的资源非常欢迎给大家分享出来，你可以选择提交 Issue 或提交 RP。
+如何提交 RP，参考 [GitHub Help](https://help.github.com/articles/working-with-forks/) 即可。
+
 ### 安装
 
 下载源码, 请执行下列命令：  
@@ -29,12 +33,15 @@ $ git clone https://github.com/wubaiqing/zaobao.git
 $ cd zaobao
 ```
 
-下载完成后, 需要安装依赖：
+代码下载完成后, 需要安装依赖：
 ```bash
 # 安装依赖
 $ yarn 
 
-# 开启阅读
+# 检查是否符合文档规范
+$ yarn lint:md
+
+# 开始阅读
 $ yarn docs:dev 
 ```
 

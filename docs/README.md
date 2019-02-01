@@ -1,6 +1,6 @@
 ---
 home: false
-footer: MIT Licensed | Copyright © 2018-present
+footer: MIT Licensed | Copyright © 2019-present
 ---
 
 ### 项目背景
@@ -8,7 +8,7 @@ footer: MIT Licensed | Copyright © 2018-present
 
 以我举例，我经常在（[Hacker News](https://news.ycombinator.com/)、[Medium](https://medium.com/)、[Dev.to](https://dev.to/)、[Twitter](https://twitter.com/)、[阮一峰](http://www.ruanyifeng.com/blog/)、[GitHub 关注](https://github.com/)、[微博](https://weibo.com/)、[V2EX](https://www.v2ex.com/)、[Ruby China](https://ruby-china.org/)、[GitHub Trending](https://github.com/trending)、[掘进](https://juejin.im/)、[OS China](https://www.oschina.net/)、[DEVURLS](https://devurls.com/)）等地去学习。通过整理后，把每天值得分享的内容，发布到公司的 QQ 群里，让大家和我同时受益。
 
-学习加整理这个过程是非常耗时的。所以我希望有一个像阮一峰老师的[每周分享](http://www.ruanyifeng.com/blog/2018/12/weekly-issue-36.html)，或者蚂蚁金服[陈成](https://github.com/sorrycc/)一样的微信群，来快速的学习有价值的东西。
+学习加整理这个过程是非常耗时的，所以我希望有一个像阮一峰老师的[每周分享](http://www.ruanyifeng.com/blog/2018/12/weekly-issue-36.html)或者蚂蚁金服[陈成](https://github.com/sorrycc/)一样的微信群，来快速的学习有价值的东西。
 
 可能是这个信息源我还没有找到，所以我打算自己来做，于是才有了这个开源项目。  
 
@@ -20,6 +20,10 @@ footer: MIT Licensed | Copyright © 2018-present
 
 > RSS : <https://wubaiqing.github.io/zaobao/rss.xml>
 
+### 资源分享，参与奉献
+项目安装方式极其简单，如果有更好的资源非常欢迎给大家分享出来，你可以选择提交 Issue 或提交 RP。
+如何提交 RP，参考 [GitHub Help](https://help.github.com/articles/working-with-forks/) 即可。
+
 ### 安装
 
 下载源码, 请执行下列命令：  
@@ -29,12 +33,15 @@ $ git clone https://github.com/wubaiqing/zaobao.git
 $ cd zaobao
 ```
 
-下载完成后, 需要安装依赖：
+代码下载完成后, 需要安装依赖：
 ```bash
 # 安装依赖
 $ yarn 
 
-# 开启阅读
+# 检查是否符合文档规范
+$ yarn lint:md
+
+# 开始阅读
 $ yarn docs:dev 
 ```
 
