@@ -21,8 +21,8 @@
 ![效果1](https://raw.githubusercontent.com/wubaiqing/zaobao/master/docs/assets/introduce_1.png)
 
 ### 资源分享，参与奉献
-项目安装方式极其简单，如果有更好的资源非常欢迎给大家分享出来，你可以选择提交 Issue 或提交 RP。
-如何提交 RP，参考 [GitHub Help](https://help.github.com/articles/working-with-forks/) 即可。
+项目安装方式极其简单，如果有更好的资源非常欢迎给大家分享出来，你可以选择提交 Issue 或提交 PR。
+如何提交 PR，参考 [GitHub Help](https://help.github.com/articles/working-with-forks/) 即可。
 
 ### 安装
 
