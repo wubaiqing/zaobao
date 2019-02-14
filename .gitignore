@@ -2,3 +2,5 @@ node_modules
 yarn.lock
 dist
 coverage
+.idea
+package-lock.json
