@@ -18,7 +18,7 @@
 > GitHub : <https://github.com/wubaiqing/zaobao>
 
 ### 阅读效果
-![效果1](https://raw.githubusercontent.com/wubaiqing/zaobao/master/docs/assets/introduce_1.png)
+![](https://ws1.sinaimg.cn/large/62bfa70bly1g0ocvsa4y7j226u1c2wv4.jpg)
 
 ### 资源分享，参与奉献
 项目安装方式极其简单，如果有更好的资源非常欢迎给大家分享出来，你可以选择提交 Issue 或提交 PR。
