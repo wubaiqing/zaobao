@@ -42,5 +42,8 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "oji": "^3.2.3"
   }
 }
