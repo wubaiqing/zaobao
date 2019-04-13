@@ -15,6 +15,13 @@ module.exports = {
       copyright: '2019 每日时报',
       count: 60
     }],
+    ['@vssue/vuepress-plugin-vssue', {
+      platform: 'github',
+      owner: 'wubaiqing',
+      repo: 'zaobao',
+      clientId: '20ee116870a4be78bb37',
+      clientSecret: '13c39d03e4bdc6f13023cc6f318ca132c7522b9f',
+    }],
   ],
   base: '/zaobao/',
   themeConfig: {

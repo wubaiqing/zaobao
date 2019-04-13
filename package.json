@@ -15,6 +15,7 @@
     "@commitlint/config-conventional": "^7.3.1",
     "@commitlint/prompt-cli": "^7.3.1",
     "@commitlint/travis-cli": "^7.3.2",
+    "@vssue/vuepress-plugin-vssue": "^0.8.2",
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
