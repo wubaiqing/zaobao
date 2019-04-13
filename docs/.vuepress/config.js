@@ -32,6 +32,9 @@ module.exports = {
       apiKey: 'd9708b4d74ba98295f2a87341fae3f0c',
       indexName: 'zaobao'
     },
+    nav: [
+      { text: '留言', link: '/talk/' },
+    ],
     sidebar: [
       ["/", "1. 介绍"],
       {

@@ -56,4 +56,4 @@ $ yarn docs:dev
 $ git pull
 ```
 
-<Vssue title="评论" />
+<Vssue title="Vssue Talk" />
