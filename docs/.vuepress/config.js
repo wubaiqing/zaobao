@@ -47,7 +47,7 @@ module.exports = {
         children: readFileList('2019', '03')
       }, {
         title: "2019 年 02 月",
-        collapsable: false,
+        collapsable: true,
         children: readFileList('2019', '02')
       }, {
         title: "2019 年 01 月",
