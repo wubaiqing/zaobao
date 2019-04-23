@@ -33,7 +33,7 @@ module.exports = {
       indexName: 'zaobao'
     },
     nav: [
-      { text: '留言', link: '/talk/' },
+      { text: '留言', link: '/other/talk' },
     ],
     sidebar: [
       ["/", "1. 介绍"],
