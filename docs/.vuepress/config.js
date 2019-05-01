@@ -12,7 +12,7 @@ module.exports = {
     ['vuepress-plugin-rss-support', {
       site_url: 'https://wubaiqing.github.io/zaobao',
       filter: page => /^\/201.+/.test(page.path),
-      copyright: '2019 每日时报',
+      copyright: '2019每日时报',
       count: 60
     }],
     ['@vssue/vuepress-plugin-vssue', {
@@ -38,39 +38,44 @@ module.exports = {
     sidebar: [
       ["/", "1. 介绍"],
       {
-        title: "2019 年 04 月",
+        title: "2019年05月",
+        collapsable: false,
+        children: readFileList('2019', '05')
+      },
+      {
+        title: "2019年04月",
         collapsable: false,
         children: readFileList('2019', '04')
       }, {
-        title: "2019 年 03 月",
+        title: "2019年03月",
         collapsable: false,
         children: readFileList('2019', '03')
       }, {
-        title: "2019 年 02 月",
+        title: "2019年02月",
         collapsable: true,
         children: readFileList('2019', '02')
       }, {
-        title: "2019 年 01 月",
+        title: "2019年01月",
         collapsable: true,
         children: readFileList('2019', '01')
       }, {
-        title: "2018 年 12 月",
+        title: "2018年12月",
         collapsable: true,
         children: readFileList('2018', '12')
       }, {
-        title: "2018 年 11 月",
+        title: "2018年11月",
         collapsable: true,
         children: readFileList('2018', '11')
       }, {
-        title: "2018 年 10 月",
+        title: "2018年10月",
         collapsable: true,
         children: readFileList('2018', '10')
       }, {
-        title: "2018 年 09 月",
+        title: "2018年09月",
         collapsable: true,
         children: readFileList('2018', '09')
       }, {
-        title: "2018 年 08 月",
+        title: "2018年08月",
         collapsable: true,
         children: readFileList('2018', '08')
       }
