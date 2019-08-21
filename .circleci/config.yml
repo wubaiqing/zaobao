@@ -5,9 +5,10 @@ jobs:
       - image: circleci/node:latest-browsers
     steps:
       - checkout
-      - run: sudo npm install -g yarn
+      - run: npm install -g yarn
       - run: yarn install --no-lockfile
       - run: yarn lint:md
+      - run: yarn lint:js
       - run: yarn test
 workflows:
   version: 2
