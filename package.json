@@ -39,5 +39,8 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "resolutions": {
+    "babel-core": "^7.0.0-0"
   }
 }
