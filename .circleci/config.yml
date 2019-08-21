@@ -1,0 +1,35 @@
+# Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+#
+version: 2.0
+jobs:
+  build:
+    working_directory: ~/zaobao
+
+    docker:
+      # specify the version you desire here
+      - image: circleci/node:latest-browsers
+
+    environment:
+      NPM_CONFIG_LOGLEVEL: error
+      JOBS: max
+
+    branches:
+      ignore:
+        - gh-pages
+
+    steps:
+      - checkout
+      - restore_cache:
+          key: node-modules-{{ checksum "package.json" }}
+      - run: sudo npm install -g yarn
+      - run: yarn install --no-lockfile
+      - run: yarn docs:build
+      - run:
+          command: yarn test -- --maxWorkers=1 --runInBand
+          no_output_timeout: 30m
+      - save_cache:
+          key: node-modules-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
