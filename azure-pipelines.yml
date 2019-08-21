@@ -17,7 +17,7 @@ strategy:
       node_version: 10.x
 
 steps:
-- task: PublishTestResults
+- task: PublishTestResults@1
   inputs:
     versionSpec: $(node_version)
 
