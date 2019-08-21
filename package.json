@@ -1,10 +1,10 @@
 {
   "scripts": {
     "test": "jest",
-    "test:coverage": "jest --coverage",
+    "test:coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "commit": "commit",
     "lint:md": "lint-md ./docs/",
-    "lint:js": "eslint --fix --ext .js .",
+    "lint:js": "eslint --fix .",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
@@ -17,20 +17,16 @@
     "@commitlint/travis-cli": "^7.3.2",
     "@vssue/vuepress-plugin-vssue": "^0.8.2",
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
-    "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "coveralls": "^3.0.2",
     "eslint": "^5.12.1",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.15.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.12.4",
     "husky": "^1.3.1",
     "jest": "^23.6.0",
     "lint-md": "^0.0.8",
     "lint-staged": "^8.1.0",
     "vuepress": "^1.0.0-alpha.30",
-    "vuepress-plugin-rss-support": "^1.0.2"
+    "vuepress-plugin-rss-support": "^1.0.2",
+    "eslint-config-airbnb-base": "^14.0.0"
   },
   "husky": {
     "hooks": {
@@ -43,8 +39,5 @@
       "eslint --fix",
       "git add"
     ]
-  },
-  "dependencies": {
-    "oji": "^3.2.3"
   }
 }
