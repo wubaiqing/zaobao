@@ -9,11 +9,17 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+strategy:
+  matrix:
+    node_8_x:
+      node_version: 8.x
+    node_10_x:
+      node_version: 10.x
+
 steps:
-- task: NodeTool@0
+- task: PublishTestResults
   inputs:
-    versionSpec: '8.x'
-  displayName: 'Install Node.js'
+    versionSpec: $(node_version)
 
 - script: |
     npm install -g yarn
@@ -21,4 +27,4 @@ steps:
     yarn lint:md
     yarn lint:js
     yarn test
-  displayName: 'yarn install, lint, and test'
+  displayName: 'yarn lint, and yarn test'
