@@ -22,7 +22,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: yarn install, lint, and test
       run: |
-        sudo npm install -g yarn
+        npm install -g yarn
         yarn install
         yarn lint:md
         yarn lint:js
