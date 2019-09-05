@@ -4,6 +4,7 @@ jobs:
     docker:
       - image: circleci/node:latest-browsers
     steps:
+      - checkout
       - run: sudo npm install -g yarn
       - run: yarn install --no-lockfile
       - run: yarn lint:md
