@@ -2,10 +2,6 @@
 root = true
 
 [*]
-# editorconfig.org
-root = true
-
-[*]
 indent_style = space
 indent_size = 2
 tab_width = 2
