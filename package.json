@@ -27,6 +27,7 @@
     "lint-md": "^0.0.8",
     "lint-staged": "^8.1.0",
     "vuepress": "^1.0.0-alpha.30",
+    "vuepress-plugin-baidu-google-analytics": "^1.0.0",
     "vuepress-plugin-rss-support": "^1.0.2"
   },
   "husky": {

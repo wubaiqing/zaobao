@@ -10,9 +10,11 @@ module.exports = {
       { rel: "alternate", type: "application/rss+xml", href: "/rss.xml", title: "每日时报" },
     ],
   ],
-  ga: "UA-131469836-1",
   plugins: [
-    ["@vuepress/google-analytics"],
+    ['vuepress-plugin-baidu-google-analytics', {
+      hm: '489822e659c8198759f3fd27589071c7',
+      ignore_hash: false
+    }],
     [
       "vuepress-plugin-rss-support",
       {
