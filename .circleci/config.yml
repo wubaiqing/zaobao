@@ -5,13 +5,36 @@ jobs:
       - image: circleci/node:latest-browsers
     steps:
       - checkout
-      - run: sudo npm install -g yarn
-      - run: yarn install --no-lockfile
-      - run: yarn lint:md
-      - run: yarn lint:js
-      - run: yarn test
-workflows:
-  version: 2
-  build_and_test:
-    jobs:
-      - build
+
+      - restore_cache:
+        key: node-modules-{{ checksum "yarn.json"
+
+      - run:
+        name: Install Dependencies
+        command: yarn --frozen-lockfile
+
+      - save_cache:
+        key: node-modules-{{ checksum "yarn.lock" }}
+        paths:
+          - ./node_modules
+          - ~/.cache/yarn
+
+      - run:
+        name: Run Build
+        command: yarn build
+
+      - run:
+        name: Lint Mardkwon
+        command: yarn lint:md
+
+      - run:
+        name: Lint JavaScript
+        command: yarn lint:js
+
+      - run:
+        name: Run Test
+        command: yarn test
+
+      - run:
+        name: Generate coverage
+        command: bash <(curl -s https://codecov.io/bash)
