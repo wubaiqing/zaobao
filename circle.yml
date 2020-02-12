@@ -15,6 +15,7 @@ jobs:
       - run: yarn lint:md
       - run: yarn lint:js
       - run: yarn test
+      - run: yarn test:coverage
 
 workflows:
   version: 2
