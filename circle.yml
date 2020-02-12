@@ -12,7 +12,6 @@ jobs:
     steps:
       - checkout
       - run: yarn install
-      - run: yarn build
       - run: yarn lint:md
       - run: yarn lint:js
       - run: yarn test
