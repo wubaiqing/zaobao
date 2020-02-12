@@ -24,5 +24,4 @@ workflows:
       - yarn-build:
           filters:
             branches:
-              ignore:
-                - gh-pages
+              only: master
