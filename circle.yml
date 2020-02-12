@@ -7,7 +7,7 @@ executors:
     working_directory: ~/zaobao
 
 jobs:
-  build:
+  yarn-build:
     executor: node
     steps:
       - checkout
@@ -21,7 +21,7 @@ workflows:
   version: 2
   build-test:
     jobs:
-      - build:
+      - yarn-build:
           filters:
             branches:
               ignore:
