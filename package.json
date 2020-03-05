@@ -5,8 +5,8 @@
     "commit": "commit",
     "lint:md": "lint-md ./docs/",
     "lint:js": "eslint --fix .",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "doc:dev": "vuepress dev docs",
+    "doc:build": "vuepress build docs"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
