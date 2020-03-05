@@ -19,7 +19,7 @@ module.exports = {
       "vuepress-plugin-rss-support",
       {
         site_url: "https://wubaiqing.github.io/zaobao",
-        filter: page => /^\/201.+/.test(page.path),
+        filter: page => /^\/20.+/.test(page.path),
         copyright: "2019每日时报",
         count: 60,
       },
