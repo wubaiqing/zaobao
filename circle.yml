@@ -1,13 +1,12 @@
 version: 2.1
 
-executors:
-  node:
+jobs:
+  build:
     docker:
       - image: circleci/node:latest-browsers
+
     working_directory: ~/zaobao
 
-jobs:
-  yarn-build:
     steps:
       - checkout
       - run: yarn install
