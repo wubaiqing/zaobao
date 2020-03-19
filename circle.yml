@@ -11,6 +11,3 @@ jobs:
       - run: yarn lint:js
       - run: yarn test
       - run: yarn test:coverage
-    branches:
-      only:
-        - master
