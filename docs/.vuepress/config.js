@@ -20,7 +20,7 @@ module.exports = {
       {
         site_url: "https://wubaiqing.github.io/zaobao",
         filter: page => /^\/20.+/.test(page.path),
-        copyright: "2019每日时报",
+        copyright: "2020每日时报",
         count: 60,
       },
     ],
@@ -48,13 +48,18 @@ module.exports = {
     sidebar: [
       ["/", "1. 介绍"],
       {
+        title: "2020年04月",
+        collapsable: false,
+        children: readFileList("2020", "04"),
+      },
+      {
         title: "2020年03月",
         collapsable: false,
         children: readFileList("2020", "03"),
       },
       {
         title: "2020年02月",
-        collapsable: false,
+        collapsable: true,
         children: readFileList("2020", "02"),
       },
       {
