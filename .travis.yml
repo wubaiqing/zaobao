@@ -9,7 +9,7 @@ node_js:
 
 before_script:
   - commitlint-travis
-  - yarn docs:build
+  - yarn doc:build
 
 after_success:
   - yarn test:coverage
