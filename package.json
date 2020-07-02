@@ -26,7 +26,6 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "husky": "^4.2.5",
     "jest": "^26.1.0",
-    "lint-md": "^0.2.0",
     "lint-staged": "^10.2.11",
     "vuepress": "^1.5.2",
     "vuepress-plugin-baidu-google-analytics": "^1.0.2",
@@ -43,5 +42,8 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "lint-md-cli": "^0.1.2"
   }
 }
