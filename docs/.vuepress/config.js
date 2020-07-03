@@ -59,17 +59,17 @@ module.exports = {
       },
       {
         title: "2020年05月",
-        collapsable: false,
+        collapsable: true,
         children: readFileList("2020", "05"),
       },
       {
         title: "2020年04月",
-        collapsable: false,
+        collapsable: true,
         children: readFileList("2020", "04"),
       },
       {
         title: "2020年03月",
-        collapsable: false,
+        collapsable: true,
         children: readFileList("2020", "03"),
       },
       {
