@@ -7,22 +7,30 @@ module.exports = {
   head: [
     [
       "link",
-      { rel: "alternate", type: "application/rss+xml", href: "/rss.xml", title: "每日时报" },
-    ],
+      {
+        rel: "alternate",
+        type: "application/rss+xml",
+        href: "/rss.xml",
+        title: "每日时报"
+      }
+    ]
   ],
   plugins: [
-    ['vuepress-plugin-baidu-google-analytics', {
-      hm: '489822e659c8198759f3fd27589071c7',
-      ignore_hash: false
-    }],
+    [
+      "vuepress-plugin-baidu-google-analytics",
+      {
+        hm: "489822e659c8198759f3fd27589071c7",
+        ignore_hash: false
+      }
+    ],
     [
       "vuepress-plugin-rss-support",
       {
         site_url: "https://wubaiqing.github.io/zaobao",
         filter: page => /^\/20.+/.test(page.path),
         copyright: "2020每日时报",
-        count: 60,
-      },
+        count: 60
+      }
     ],
     [
       "@vssue/vuepress-plugin-vssue",
@@ -31,9 +39,9 @@ module.exports = {
         owner: "wubaiqing",
         repo: "zaobao",
         clientId: "20ee116870a4be78bb37",
-        clientSecret: "13c39d03e4bdc6f13023cc6f318ca132c7522b9f",
-      },
-    ],
+        clientSecret: "13c39d03e4bdc6f13023cc6f318ca132c7522b9f"
+      }
+    ]
   ],
   base: "/zaobao/",
   themeConfig: {
@@ -42,7 +50,7 @@ module.exports = {
     docsDir: "docs",
     algolia: {
       apiKey: "d9708b4d74ba98295f2a87341fae3f0c",
-      indexName: "zaobao",
+      indexName: "zaobao"
     },
     nav: [{ text: "留言", link: "/other/talk" }],
     sidebar: [
@@ -50,123 +58,123 @@ module.exports = {
       {
         title: "2020年07月",
         collapsable: false,
-        children: readFileList("2020", "07"),
+        children: readFileList("2020", "07")
       },
       {
         title: "2020年06月",
         collapsable: false,
-        children: readFileList("2020", "06"),
+        children: readFileList("2020", "06")
       },
       {
         title: "2020年05月",
         collapsable: true,
-        children: readFileList("2020", "05"),
+        children: readFileList("2020", "05")
       },
       {
         title: "2020年04月",
         collapsable: true,
-        children: readFileList("2020", "04"),
+        children: readFileList("2020", "04")
       },
       {
         title: "2020年03月",
         collapsable: true,
-        children: readFileList("2020", "03"),
+        children: readFileList("2020", "03")
       },
       {
         title: "2020年02月",
         collapsable: true,
-        children: readFileList("2020", "02"),
+        children: readFileList("2020", "02")
       },
       {
         title: "2020年01月",
         collapsable: true,
-        children: readFileList("2020", "01"),
+        children: readFileList("2020", "01")
       },
       {
         title: "2019年12月",
         collapsable: true,
-        children: readFileList("2019", "12"),
+        children: readFileList("2019", "12")
       },
       {
         title: "2019年11月",
         collapsable: true,
-        children: readFileList("2019", "11"),
+        children: readFileList("2019", "11")
       },
       {
         title: "2019年10月",
         collapsable: true,
-        children: readFileList("2019", "10"),
+        children: readFileList("2019", "10")
       },
       {
         title: "2019年09月",
         collapsable: true,
-        children: readFileList("2019", "09"),
+        children: readFileList("2019", "09")
       },
       {
         title: "2019年08月",
         collapsable: true,
-        children: readFileList("2019", "08"),
+        children: readFileList("2019", "08")
       },
       {
         title: "2019年07月",
         collapsable: true,
-        children: readFileList("2019", "07"),
+        children: readFileList("2019", "07")
       },
       {
         title: "2019年06月",
         collapsable: true,
-        children: readFileList("2019", "06"),
+        children: readFileList("2019", "06")
       },
       {
         title: "2019年05月",
         collapsable: true,
-        children: readFileList("2019", "05"),
+        children: readFileList("2019", "05")
       },
       {
         title: "2019年04月",
         collapsable: true,
-        children: readFileList("2019", "04"),
+        children: readFileList("2019", "04")
       },
       {
         title: "2019年03月",
         collapsable: true,
-        children: readFileList("2019", "03"),
+        children: readFileList("2019", "03")
       },
       {
         title: "2019年02月",
         collapsable: true,
-        children: readFileList("2019", "02"),
+        children: readFileList("2019", "02")
       },
       {
         title: "2019年01月",
         collapsable: true,
-        children: readFileList("2019", "01"),
+        children: readFileList("2019", "01")
       },
       {
         title: "2018年12月",
         collapsable: true,
-        children: readFileList("2018", "12"),
+        children: readFileList("2018", "12")
       },
       {
         title: "2018年11月",
         collapsable: true,
-        children: readFileList("2018", "11"),
+        children: readFileList("2018", "11")
       },
       {
         title: "2018年10月",
         collapsable: true,
-        children: readFileList("2018", "10"),
+        children: readFileList("2018", "10")
       },
       {
         title: "2018年09月",
         collapsable: true,
-        children: readFileList("2018", "09"),
+        children: readFileList("2018", "09")
       },
       {
         title: "2018年08月",
         collapsable: true,
-        children: readFileList("2018", "08"),
-      },
-    ],
-  },
+        children: readFileList("2018", "08")
+      }
+    ]
+  }
 };
