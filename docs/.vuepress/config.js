@@ -56,13 +56,18 @@ module.exports = {
     sidebar: [
       ["/", "1. 介绍"],
       {
+        title: "2021年06月",
+        collapsable: false,
+        children: readFileList("2021", "06")
+      },
+      {
         title: "2021年05月",
         collapsable: false,
         children: readFileList("2021", "05")
       },
       {
         title: "2021年04月",
-        collapsable: false,
+        collapsable: true,
         children: readFileList("2021", "04")
       },
       {
