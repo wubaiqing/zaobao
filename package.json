@@ -8,7 +8,8 @@
     "doc:dev": "vuepress dev docs",
     "doc:build": "vuepress build docs",
     "doc:deploy": "bash ./deploy.sh",
-    "update:deps": "yarn upgrade-interactive --latest"
+    "update:deps": "yarn upgrade-interactive --latest",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
