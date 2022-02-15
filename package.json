@@ -9,7 +9,7 @@
     "doc:build": "vuepress build docs",
     "doc:deploy": "bash ./deploy.sh",
     "update:deps": "pnpm update --latest",
-    "prepare": "husky install"
+    "prepare": "is-ci || husky install"
   },
   "devDependencies": {
     "@babel/core": "^7.17.2",
@@ -20,6 +20,7 @@
     "babel-jest": "^27.5.1",
     "eslint": "^8.9.0",
     "husky": "^7.0.4",
+    "is-ci": "^3.0.1",
     "jest": "^27.5.1",
     "lint-md-cli": "^0.1.2",
     "lint-staged": "^12.3.4",

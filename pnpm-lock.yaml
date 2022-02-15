@@ -9,6 +9,7 @@ specifiers:
   babel-jest: ^27.5.1
   eslint: ^8.9.0
   husky: ^7.0.4
+  is-ci: ^3.0.1
   jest: ^27.5.1
   lint-md-cli: ^0.1.2
   lint-staged: ^12.3.4
@@ -25,6 +26,7 @@ devDependencies:
   babel-jest: registry.npmmirror.com/babel-jest/27.5.1_@babel+core@7.17.2
   eslint: registry.npmmirror.com/eslint/8.9.0
   husky: registry.npmmirror.com/husky/7.0.4
+  is-ci: registry.npmmirror.com/is-ci/3.0.1
   jest: registry.npmmirror.com/jest/27.5.1
   lint-md-cli: registry.npmmirror.com/lint-md-cli/0.1.2
   lint-staged: registry.npmmirror.com/lint-staged/12.3.4
@@ -8068,6 +8070,15 @@ packages:
     hasBin: true
     dependencies:
       ci-info: registry.npmmirror.com/ci-info/2.0.0
+    dev: true
+
+  registry.npmmirror.com/is-ci/3.0.1:
+    resolution: {integrity: sha512-ZYvCgrefwqoQ6yTyYUbQu64HsITZ3NfKX1lzaEYdkTDcfKzzCI/wthRRYKkdjHKFVgNiXKAKm65Zo1pk2as/QQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-ci/-/is-ci-3.0.1.tgz}
+    name: is-ci
+    version: 3.0.1
+    hasBin: true
+    dependencies:
+      ci-info: registry.npmmirror.com/ci-info/3.3.0
     dev: true
 
   registry.npmmirror.com/is-color-stop/1.1.0:
