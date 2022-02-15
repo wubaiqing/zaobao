@@ -4,7 +4,7 @@ module.exports = {
     jest: true
   },
   parserOptions: {
-    sourceType: "module"
+    sourceType: 'module',
+    ecmaVersion: 2015
   },
-  extends: 'airbnb-base/legacy'
 };

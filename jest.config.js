@@ -5,7 +5,7 @@ module.exports = {
     '/node_modules/'
   ],
   transform: {
-    '^.+\\.jsx?$': 'babel-7-jest'
+    '^.+\\.jsx?$': 'babel-jest'
   },
   transformIgnorePatterns: [
     '/node_modules/'

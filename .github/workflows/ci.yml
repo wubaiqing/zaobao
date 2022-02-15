@@ -1,0 +1,40 @@
+name: 'ci'
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install pnpm
+      uses: pnpm/action-setup@v2.0.1
+      with:
+        version: 6.15.1
+
+
+    - name: Set node version to 12
+      uses: actions/setup-node@v2
+      with:
+        node-version: 12
+        cache: 'pnpm'
+
+    - run: pnpm install
+
+    - name: markdown lint
+      run: npm run lint:md
+
+    - name: js lint
+      run: npm run lint:js
+
+    - name: Run unit tests
+      run: npm run test

@@ -1,4 +1,3 @@
-
 const { resolve } = require('path');
 const { existsSync, lstatSync, readdirSync } = require('fs');
 
