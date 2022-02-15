@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 set -e
-yarn run doc:build
+pnpm run doc:build
 cd docs/.vuepress/dist
 
 git init
